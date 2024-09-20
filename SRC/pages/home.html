@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/home.css">
+    <title>Home</title>
+</head>
+<body>
+    <div class="cabo">
+        <!-- Cabeçalho da página com navegação -->
+        <nav>
+            <img src="../assets/img/logo.png" class="logo" alt="Logo da empresa">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+                <li><a href="#">Projetos</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br><br>
+    <section class="principal1">
+        <div class="card">
+            <p>PROJETOS</p>
+            <br>
+        </div>
+    </section>
+
+    <!-- Seção principal 2 (Formulário) -->
+    <section class="principal2">
+        <div class="card fecho">
+
+            <form class="put">
+                <label for="Nome">Nome:</label>
+                <input type="text" id="Nome" placeholder="Nome">
+                
+                <label for="Prazo">Prazo:</label>
+                <input type="text" id="Prazo" placeholder="Prazo">
+                
+                <label for="Descricao">Descrição:</label>
+                <input type="text" id="Descricao" placeholder="Descrição">
+                
+                <button id="moverProjetos" type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+    <script src="../scripts/home.js"></script>
+
+    </body>
+</html>
